@@ -1,7 +1,7 @@
 loan-api:
   mongo:
-    url: mongodb+srv://customer:yPPjeFTYUMnmQMXR@loancatalog.kvykilu.mongodb.net/customerloandb?retryWrites=true&w=majority
-    db: customerloandb
+    url: ${ENVIORNMENT_DATABASE_URL}
+    db: ${ENVIORNMENT_DATABASE_NAME}
 spring:
   jpa:
     show-sql: true
