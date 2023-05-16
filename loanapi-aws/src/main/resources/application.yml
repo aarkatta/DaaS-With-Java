@@ -1,0 +1,11 @@
+loan-api:
+  mongo:
+    url: mongodb+srv://customer:yPPjeFTYUMnmQMXR@loancatalog.kvykilu.mongodb.net/customerloandb?retryWrites=true&w=majority
+    db: customerloandb
+spring:
+  jpa:
+    show-sql: true
+logging:
+  level:
+    com.querydsl.sql: DEBUG
+    org.springframework.data.mongodb.core.MongoTemplate: DEBUG
